@@ -8,5 +8,24 @@
   <body>
     <h1>Git Branches Explained</h1>
     <h2>Tạo, chuyển đổi và quản lí các nhánh dự án</h2>
+    <p>
+      <b>git branch</b> : kiểm tra cục bộ nhánh git trên máy tính <br />
+      <b>git branch -a</b> : kiểm tra nhánh trên github và máy tính dấu * ở phía
+      nhánh nào tức là đang đứng ở nhánh đó <br />
+      <b>git branch -c tên_nhánh_mới</b> : tạo ra 1 nhánh mới nhưng vẫn ở nhánh
+      hiện tại, chỉ tạo ở máy cục bộ <br />
+      <b>git checkout tên_nhánh</b> : qua nhánh tên_nhánh <br />
+      <b>git checkout -b tên_nhánh_mới</b> : tạo ra nhánh mới và qua nhánh đó
+      luôn, chỉ tạo ở máy cục bộ <br />
+      <b>git push -u origin tên_nhánh</b> : push tên_nhánh lên github <br />
+      <b>git branch -d tên_nhánh</b> : không đứng ở <b>tên_nhánh</b>, xóa
+      tên_nhánh khỏi máy cục bộ <br />
+      <b
+        >Nếu tên_nhánh đang thực hiện commit nhưng vẫn muốn xóa tên_nhánh ta
+        thực hiện: <u>git branch -D tên_nhánh</u></b
+      >
+      <br />
+      <b>git push -d origin tên_nhánh</b> : xóa tên_nhánh khỏi github <br />
+    </p>
   </body>
 </html>
